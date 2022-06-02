@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the number</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="top-text">
+                <h1 id="message">Guess the number</h1>
+            </div>
+            <p class="info-text">
+                -Guess the number from 0-<span class="betwen">100</span>
+            </p>
+            <input type="number" id="textArea" placeholder="Enter a number">
+            <button class="btn">Check it</button>
+            <button class="btn2">Restart</button>
+        </div>
+        <div class="card">
+            <div class="l-card">
+                <h3>Score: <span class="score">10</span></h3>
+                <h3>High Score: <span class="high-score">0</span></h3>
+            </div>
+            <div class="colored">Rules</div>
+            <p class="info-text">-You have 10 points in each round</p>
+            <p class="info-text">-Every wrong guess -1 point</p>
+            <p class="info-text">-If your score reaches 0,  you lose.</p>
+            
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
